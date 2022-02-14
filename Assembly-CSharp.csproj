@@ -53,11 +53,11 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\LocalPlayer\RisingText.cs" />
-    <Compile Include="Assets\Scripts\LocalPlayer\rotateArrow.cs" />
-    <Compile Include="Assets\Scripts\LocalPlayer\camMovement.cs" />
+    <Compile Include="Assets\Scripts\SinglePlayer\RisingText.cs" />
+    <Compile Include="Assets\Scripts\SinglePlayer\rotateArrow.cs" />
+    <Compile Include="Assets\Scripts\SinglePlayer\camMovement.cs" />
     <Compile Include="Assets\Scripts\MultyPlayer\LobbyScene.cs" />
-    <Compile Include="Assets\Scripts\LocalPlayer\GamePlay.cs" />
+    <Compile Include="Assets\Scripts\SinglePlayer\GamePlay.cs" />
     <Compile Include="Assets\Scripts\MultyPlayer\PlayerController.cs" />
     <Compile Include="Assets\Scripts\MultyPlayer\MonoSingleton.cs" />
     <Compile Include="Assets\Scripts\MultyPlayer\GameManager.cs" />
