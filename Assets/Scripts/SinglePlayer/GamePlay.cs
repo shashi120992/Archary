@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GamePlay : MonoBehaviour {
 	
@@ -243,7 +244,11 @@ public class GamePlay : MonoBehaviour {
 	}
 	public void ChangeName(string newName)
 	{
-	
 		playerName = input.text;
+	}
+
+	public void exitButton()
+	{
+		SceneManager.LoadScene("Start");
 	}
 }

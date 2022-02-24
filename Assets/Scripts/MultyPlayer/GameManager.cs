@@ -20,21 +20,21 @@ namespace Assets.Scripts
         [SerializeField] private GameObject bowprefab;
         [SerializeField] private GameObject bowstringprefab;
         [SerializeField] private GameObject arrawprefab;
-        [SerializeField] private GameObject arrawtextprefab;
-        [SerializeField] private GameObject scoreprefab;
+        //[SerializeField] private GameObject arrawtextprefab;
+        //[SerializeField] private GameObject scoreprefab;
         public int arrows = 20;
         public int score = 0;
         GameObject arrow;
         bool arrowShot;
         bool arrowPrepared;
         
-        public Canvas gameCanvas;
-        public Text arrowText;
-        public Text scoreText;
-        public Text endscoreText;
-        public Text actualHighscoreText;
-        public Text newHighscoreText;
-        public Text newHighText;
+        //public Canvas menuCanvas, gameCanvas, gameOverCanvas;
+        //public Text arrowText;
+        //public Text scoreText;
+        //public Text endscoreText;
+        //public Text actualHighscoreText;
+        //public Text newHighscoreText;
+        //public Text newHighText;
         
         private List<Vector3> bowStringPosition;
         private LineRenderer bowStringLinerenderer;
@@ -226,6 +226,8 @@ namespace Assets.Scripts
             }
             arrowPrepared = true;
         }
+
+       
 
     }
 }
